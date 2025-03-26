@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Healthcare</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icons">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <section class="navsection">
+        <nav class="navbarsec">
+            <div class="navbaritems">
+                <ul class="navclass">
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="Appointment.html">APPOINTMENT</a></li>
+                    
+                </ul>
+            </div>
+           <!--<div class="burger">&#9776</div>-->
+        </nav>
+    </section>
+        <!-- ___________contact section -->
+        <div class="contact">
+            <h1 class="heading">Contact Us</h1>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h2>Get in Touch</h2>
+                    <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p>
+                    <p><strong>Address:</strong> New Road, Kathmandu</p>
+                    <p><strong>Email:</strong> info@healthcareclinic.com</p>
+                    <p><strong>Phone:</strong> +977 9860615248</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" class="fab fa-facebook"></a>
+                        <a href="https://twitter.com" target="_blank" class="fab fa-twitter"></a>
+                        <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+                        <a href="https://linkedin.com" target="_blank" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                
+                <!-- Contact form -->
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form  name="contactform" action="" method="POST" onsubmit="return validatecontact()">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+                        
+                        <button type="submit" name="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-sec">
+            <div class="sec">
+                <div class="f_box">
+                    <h2>contact</h2>
+                    <p>email</p>
+                    <p>youtube</p>
+                    <p>facebook</p>
+                    <p>twitter</p>
+                </div>
+                <div class="f_box">
+                    <h2>departments</h2>
+                    <p>radiology</p>
+                    <p>pharmocology</p>
+                    <p>pathology</p>
+                    <p>anatomy</p>
+                </div>
+            </div>
+
+            <div class="sec">
+                <div class="f_box">
+                    <h2>address</h2>
+                    <p>New Road,<br>Kathmandu</p>
+                    <p>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-snapchat"></i>
+                        <i class="fab fa-whatsapp"></i>
+                    </p>
+                </div>
+                <div class="f_box">
+                    <h2>other facilities</h2>
+                    <p>24/7 services</p>
+                    <p>quality control</p>
+                    <p>full cycle medical care</p>
+                </div>
+            </div>
+        </div>
+        <p class="para">copyright @ HealthCare</p>
+    </footer>
+
+    
+</body>
+</html>
